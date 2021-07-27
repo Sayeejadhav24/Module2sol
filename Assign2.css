@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.FirstBox{
+  border: 2px solid black;
+  background-color: lightgrey;
+  width: 357px;
+  height: 206px;
+  font-weight: bold;
+}
+.SecondBox{
+  border: 2px solid black;
+  background-color: lightgrey;
+  float: right;
+  position: relative;
+  width: 357px;
+  height: 206px;
+  top: -211px;
+  font-weight: bold;
+}
+.ThirdBox{
+  border: 2px solid black;
+      background-color: lightgrey;
+      float: right;
+      position: relative;
+      width: 357px;
+      height: 206px;
+      top: -210px;
+      left: -113px;
+      font-weight: bold;
+}
+h1{
+  text-align: center;
+}
+#first{
+  padding: 21px 32px;
+}
+#b1{
+  background-color: pink;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+#b2{
+  background-color: lightyellow;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+#b3{
+  background-color: red;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+p{
+
+  margin-top: 65px;
+  padding: 10px 12px;
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .SecondBox{
+    float: left;
+    position: relative;
+    width: 105%;
+    height: 229px;
+    top: 172px
+
+  }
+  #box-1{
+    height: 206px;
+    width: 357px;
+  }
+  .ThirdBox{
+    position: relative;
+    margin-top: -225px;
+    left: 39px;
+    width: 48%;
+    height: 206px;
+    font-weight: bold;
+  }
+  .FirstBox{
+    width: 48%;
+  }
+}
+@media (max-width:767px){
+  .FirstBox{
+    width: 70%;
+
+    margin-left: 9%;
+
+  }
+  .SecondBox{
+    width: 70%;
+    top: 250px;
+    left: -21%;
+  }
+  .ThirdBox{
+    width: 70%;
+    top:-183px;
+    left: -21%;
+  }
+
+
+
+}
